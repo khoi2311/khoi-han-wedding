@@ -64,7 +64,13 @@
     <h1>Khoi & Han</h1>
     <p>You're invited to celebrate our wedding at White Palace</p>
   </header>
-
+  
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="details.html">Details</a> |
+    <a href="photos.html">Photos</a>
+  </nav>
+  
   <form id="rsvpForm">
     <label for="name">Your Name</label>
     <input type="text" id="name" name="name" required>
@@ -107,7 +113,7 @@
     };
 
     // ⚠️ Replace with your actual Google Apps Script Web App URL
-    const scriptURL = "YOUR_WEB_APP_URL_HERE";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbyi6LiZKCSJqHzJsn42_HyKlOt3P3me5_MDFdaxTY42yZcHdTMDGI-I-xqoiwInikdA/exec";
 
     try {
       await fetch(scriptURL, {
